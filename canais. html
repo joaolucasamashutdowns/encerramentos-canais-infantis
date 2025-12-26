@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Canais - Encerramentos de Canais Infantis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Canais Encerrados</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="canais.html">Lista de Canais</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Canais de TV Infantil Encerrados</h2>
+        <table>
+            <tr>
+                <th>Canal</th>
+                <th>Ano de Encerramento</th>
+                <th>Vídeos</th>
+            </tr>
+            <tr>
+                <td>Disney Channel</td>
+                <td>2025</td>
+                <td><a href="https://youtube.com/video1" target="_blank">Ver vídeo</a></td>
+            </tr>
+            <tr>
+                <td>Nickelodeon</td>
+                <td>2024</td>
+                <td><a href="https://youtube.com/video2" target="_blank">Ver vídeo</a></td>
+            </tr>
+            <!-- Adicione mais canais conforme necessário -->
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Encerramentos de Canais Infantis</p>
+    </footer>
+</body>
+</html>
