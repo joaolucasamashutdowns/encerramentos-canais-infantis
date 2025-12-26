@@ -1,27 +1,79 @@
+/* =========================
+   Geral do site
+========================= */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-header {
-    background-color: #003366;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* fundo escuro */
+    color: #fff; /* texto branco */
+    margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
 }
 
-footer {
-    text-align: center;
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Seções
+========================= */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* =========================
+   Cores por canal
+========================= */
+#nickelodeon {
+    border-left: 8px solid orange; /* cor do logo Nickelodeon */
+}
+
+#disney {
+    border-left: 8px solid #1E90FF; /* azul Disney */
+}
+
+#outros {
+    border-left: 8px solid #ff69b4; /* rosa para outros canais */
+}
+
+/* =========================
+   Vídeos
+========================= */
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+/* =========================
+   Títulos
+========================= */
+h1, h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+}
+
+h2 {
     margin-top: 20px;
 }
